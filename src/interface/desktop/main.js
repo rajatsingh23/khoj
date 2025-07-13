@@ -616,7 +616,7 @@ app.whenReady().then(() => {
         applicationName: "Khoj",
         applicationVersion: khojPackage.version,
         version: khojPackage.version,
-        authors: "Khoj AI",
+        authors: "Rajat Singh",
         website: "https://khoj.dev",
         copyright: "GPL v3",
         iconPath: path.join(__dirname, 'assets', 'icons', 'favicon-128x128.png')

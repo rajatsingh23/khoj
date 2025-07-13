@@ -215,7 +215,7 @@ function ApiKeyCard() {
             </CardHeader>
             <CardContent className="overflow-hidden grid gap-6">
                 <p className="text-md text-gray-400">
-                    Access Khoj from the{" "}
+                    Access Rajat from the{" "}
                     <a href="https://docs.khoj.dev/clients/desktop" target="_blank">
                         Desktop
                     </a>
@@ -263,7 +263,7 @@ function ApiKeyCard() {
                                             onClick={() => {
                                                 toast({
                                                     title: `🔑 Copied API Key: ${key.name}`,
-                                                    description: `Set this API key in the Khoj apps you want to connect to this Khoj account`,
+                                                    description: `Set this API key in the Rajat apps you want to connect to this Rajat account`,
                                                 });
                                                 copyAPIKey(key.token);
                                             }}
@@ -274,7 +274,7 @@ function ApiKeyCard() {
                                             onClick={() => {
                                                 toast({
                                                     title: `🔑 Deleted API Key: ${key.name}`,
-                                                    description: `Apps using this API key will no longer connect to this Khoj account`,
+                                                    description: `Apps using this API key will no longer connect to this Rajat account`,
                                                 });
                                                 deleteAPIKey(key.token);
                                             }}
@@ -706,7 +706,7 @@ export default function SettingsView() {
             } else {
                 toast({
                     title: `✅ Disconnected ${source}`,
-                    description: `Your ${source} integration to Khoj has been disconnected.`,
+                    description: `Your ${source} integration to Rajat has been disconnected.`,
                 });
             }
         } catch (error) {
@@ -754,7 +754,7 @@ export default function SettingsView() {
                                                 </CardHeader>
                                                 <CardContent className="overflow-hidden">
                                                     <p className="pb-4 text-gray-400">
-                                                        What should Khoj refer to you as?
+                                                        What should Rajat refer to you as?
                                                     </p>
                                                     <Input
                                                         type="text"
@@ -790,7 +790,7 @@ export default function SettingsView() {
                                                             <p className="text-gray-400">
                                                                 You are on a{" "}
                                                                 {userConfig.length_of_free_trial}{" "}
-                                                                day trial of the Khoj Futurist plan.
+                                                                day trial of the Rajat Futurist plan.
                                                                 Your trial ends on{" "}
                                                                 {
                                                                     userConfig.subscription_renewal_date
@@ -1026,7 +1026,7 @@ export default function SettingsView() {
                                                                 setNotionToken(e.target.value)
                                                             }
                                                             value={notionToken || ""}
-                                                            placeholder="Enter API Key of your Khoj integration on Notion"
+                                                            placeholder="Enter API Key of your Rajat integration on Notion"
                                                             className="w-full border border-gray-300 rounded-lg px-4 py-6"
                                                         />
                                                     )}

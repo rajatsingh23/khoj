@@ -1,7 +1,7 @@
 {
   "packageId": "dev.khoj.app",
   "host": "app.khoj.dev",
-  "name": "Khoj AI",
+  "name": "Rajat Singh",
   "launcherName": "Khoj",
   "display": "standalone",
   "themeColor": "#FFFFFF",
@@ -13,7 +13,7 @@
   "backgroundColor": "#FFFFFF",
   "enableNotifications": true,
   "startUrl": "/",
-  "iconUrl": "https://assets.khoj.dev/khoj_lantern_1200x1200.png",
+  "iconUrl": "https://assets.khoj.dev/ai_1200x1200.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "android.keystore",

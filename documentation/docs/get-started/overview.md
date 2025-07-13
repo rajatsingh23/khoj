@@ -1,7 +1,7 @@
 ---
 sidebar_position: 0
 slug: /
-keywords: ["khoj", "khoj ai", "khoj docs", "khoj documentation", "khoj features", "khoj overview", "khoj quickstart", "khoj chat", "khoj search", "khoj cloud", "khoj self-host", "khoj setup", "open source ai", "local llm", "ai copilot", "second brain", "personal ai", "ai search engine", "research assistant", "open source llm", "self-host llm", "self-host chatgpt", "ai chatbot", "ai assistant", "ai research assistant", "ai search engine", "ai knowledge base", "ai knowledge graph", "ai personal assistant", "ai second brain", "open source ai assistant"]
+keywords: ["khoj", "Rajat Singh", "khoj docs", "khoj documentation", "khoj features", "khoj overview", "khoj quickstart", "khoj chat", "khoj search", "khoj cloud", "khoj self-host", "khoj setup", "open source ai", "local llm", "ai copilot", "second brain", "personal ai", "ai search engine", "research assistant", "open source llm", "self-host llm", "self-host chatgpt", "ai chatbot", "ai assistant", "ai research assistant", "ai search engine", "ai knowledge base", "ai knowledge graph", "ai personal assistant", "ai second brain", "open source ai assistant"]
 ---
 
 # Overview

@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Khoj AI',
+  title: 'Rajat Singh',
   tagline: 'Your Second Brain',
 
   staticDirectories: ['assets'],
@@ -82,12 +82,12 @@ const config = {
         {name: 'og:site_name', content: 'Khoj Documentation'},
         {name: 'og:description', content: 'Quickly get started with using or self-hosting Khoj'},
         {name: 'og:url', content: 'https://docs.khoj.dev'},
-        {name: 'keywords', content: 'khoj, khoj ai, chatgpt, open source ai, open source, transparent, accessible, trustworthy, hackable, index notes, rag, productivity'}
+        {name: 'keywords', content: 'khoj, Rajat Singh, chatgpt, open source ai, open source, transparent, accessible, trustworthy, hackable, index notes, rag, productivity'}
       ],
       navbar: {
         title: 'Khoj',
         logo: {
-          alt: 'Khoj AI',
+          alt: 'Rajat Singh',
           src: 'img/favicon-128x128.ico',
         },
         items: [

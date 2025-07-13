@@ -261,15 +261,15 @@ UNFOLD = {
     "SITE_HEADER": "Khoj Admin Panel",
     "SITE_URL": "/",
     "SITE_ICON": {
-        "light": lambda request: static("assets/icons/khoj_lantern_128x128.png"),
-        "dark": lambda request: static("assets/icons/khoj_lantern_128x128_dark.png"),
+        "light": lambda request: static("assets/icons/ai_128x128.ico"),
+        "dark": lambda request: static("assets/icons/ai_128x128_dark.ico"),
     },
     "SITE_FAVICONS": [
         {
             "rel": "icon",
             "sizes": "32x32",
             "type": "image/svg+xml",
-            "href": lambda request: static("assets/icons/khoj_lantern.svg"),
+            "href": lambda request: static("assets/icons/ai_128x128.svg"),
         },
     ],
 }

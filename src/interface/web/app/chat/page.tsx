@@ -194,7 +194,7 @@ function ChatBodyData(props: ChatBodyDataProps) {
 }
 
 export default function Chat() {
-    const defaultTitle = "Khoj AI - Chat";
+    const defaultTitle = "Rajat Singh - Chat";
     const [chatOptionsData, setChatOptionsData] = useState<ChatOptions | null>(null);
     const [isLoading, setLoading] = useState(true);
     const [title, setTitle] = useState(defaultTitle);
@@ -403,7 +403,7 @@ export default function Chat() {
             if (errorMessage.includes("Error in input stream"))
                 currentMessage.rawResponse = `Woops! The connection broke while I was writing my thoughts down. Maybe try again in a bit or dislike this message if the issue persists?`;
             else if (apiError.streamError) {
-                currentMessage.rawResponse = `Umm, not sure what just happened but I lost my train of thought. Could you try again or ask my developers to look into this if the issue persists? They can be contacted at the Khoj Github, Discord or team@khoj.dev.`;
+                currentMessage.rawResponse = `Umm, not sure what just happened but I lost my train of thought. Could you try again or ask my developers to look into this if the issue persists? They can be contacted at the Rajat Github, Discord or team@khoj.dev.`;
             } else if (response.status === 429) {
                 "detail" in apiError
                     ? (currentMessage.rawResponse = `${apiError.detail}`)

@@ -100,7 +100,7 @@ jobs:
           cache-from: type=gha,scope=${{ matrix.image }}-${{ matrix.platform }}
           cache-to: type=gha,mode=max,scope=${{ matrix.image }}-${{ matrix.platform}}
           labels: |
-            org.opencontainers.image.description=Khoj AI - Your second brain powered by LLMs and Neural Search
+            org.opencontainers.image.description=Rajat Singh - Your second brain powered by LLMs and Neural Search
             org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
 
       - name: 📦️⛅️ Build and Push Cloud Docker Image
@@ -118,7 +118,7 @@ jobs:
           cache-from: type=gha,scope=${{ matrix.image }}-${{ matrix.platform }}
           cache-to: type=gha,mode=max,scope=${{ matrix.image }}-${{ matrix.platform}}
           labels: |
-            org.opencontainers.image.description=Khoj AI Cloud - Your second brain powered by LLMs and Neural Search
+            org.opencontainers.image.description=Rajat Singh Cloud - Your second brain powered by LLMs and Neural Search
             org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
 
       - name: 📦️️💻 Build and Push Computer for Khoj
@@ -133,7 +133,7 @@ jobs:
           cache-from: type=gha,scope=computer-${{ matrix.platform }}
           cache-to: type=gha,mode=max,scope=computer-${{ matrix.platform }}
           labels: |
-            org.opencontainers.image.description=Khoj AI Computer - A computer for your second brain to operate
+            org.opencontainers.image.description=Rajat Singh Computer - A computer for your second brain to operate
             org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
 
   manifest:

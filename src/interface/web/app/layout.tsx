@@ -6,21 +6,21 @@ import { ContentSecurityPolicy } from "./common/layoutHelper";
 import { ThemeProvider } from "./components/providers/themeProvider";
 
 export const metadata: Metadata = {
-    title: "Khoj AI - Ask Anything",
+    title: "Rajat Singh - Ask Anything",
     description:
-        "Khoj is a personal research assistant. It helps you understand better and create faster.",
+        "Rajat is a personal research assistant. It helps you understand better and create faster.",
     icons: {
-        icon: "/static/assets/icons/khoj_lantern.ico",
-        apple: "/static/assets/icons/khoj_lantern_256x256.png",
+        icon: "/static/assets/icons/ai.ico",
+        apple: "/assets/icons/ai_256x256.ico",
     },
     manifest: "/static/khoj.webmanifest",
     keywords:
         "research assistant, productivity, AI, Khoj, open source, model agnostic, research, productivity tool, personal assistant, personal research assistant, personal productivity assistant",
     openGraph: {
-        siteName: "Khoj AI",
-        title: "Khoj AI",
+        siteName: "Rajat Singh",
+        title: "Rajat Singh",
         description:
-            "Khoj is a personal research assistant. It helps you understand better and create faster.",
+            "Rajat is a personal research assistant. It helps you understand better and create faster.",
         url: "https://app.khoj.dev",
         type: "website",
         images: [
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
                 height: 525,
             },
             {
-                url: "https://assets.khoj.dev/khoj_lantern_256x256.png",
+                url: "https://assets.khoj.dev/ai_256x256.ico",
                 width: 256,
                 height: 256,
             },
             {
-                url: "https://assets.khoj.dev/khoj_lantern_logomarktype_1200x630.png",
+                url: "https://assets.khoj.dev/rajat_singh_1200x630.png",
                 width: 1200,
                 height: 630,
             },

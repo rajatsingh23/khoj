@@ -6,7 +6,7 @@ keywords: ["upload data", "upload files", "share data", "share files", "pdf ai",
 
 # Upload your data
 
-There are several ways you can get started with sharing your data with the Khoj AI.
+There are several ways you can get started with sharing your data with the Rajat Singh.
 
 - Drag and drop your documents via [the web UI](/clients/web/#upload-documents). This is best if you have a one-off document you need to interact with.
 - You can use the [search page](https://app.khoj.dev/search) to upload documents that become indexed & searchable by your second brain. Click on "Add Documents" to get started.

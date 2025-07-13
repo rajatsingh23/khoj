@@ -4,15 +4,15 @@ import { Toaster } from "@/components/ui/toaster";
 import { ChatwootWidget } from "../components/chatWoot/ChatwootWidget";
 
 export const metadata: Metadata = {
-    title: "Khoj AI - Settings",
-    description: "Configure Khoj to get personalized, deeper assistance.",
+    title: "Rajat Singh - Settings",
+    description: "Configure Rajat to get personalized, deeper assistance.",
     icons: {
-        icon: "/static/assets/icons/khoj_lantern.ico",
-        apple: "/static/assets/icons/khoj_lantern_256x256.png",
+        icon: "/static/assets/icons/ai.ico",
+        apple: "/static/assets/icons/ai_256x256.ico",
     },
     openGraph: {
-        siteName: "Khoj AI",
-        title: "Khoj AI - Settings",
+        siteName: "Rajat Singh",
+        title: "Rajat Singh - Settings",
         description: "Setup, configure, and personalize Khoj, your AI research assistant.",
         url: "https://app.khoj.dev/settings",
         type: "website",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
                 height: 525,
             },
             {
-                url: "https://assets.khoj.dev/khoj_lantern_256x256.png",
+                url: "https://assets.khoj.dev/ai_256x256.ico",
                 width: 256,
                 height: 256,
             },

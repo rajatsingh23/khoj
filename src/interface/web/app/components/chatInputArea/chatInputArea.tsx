@@ -183,7 +183,7 @@ export const ChatInputArea = forwardRef<HTMLTextAreaElement, ChatInputProps>((pr
         if (!message.trim() && imageData.length === 0) return;
         if (!props.isLoggedIn) {
             setLoginRedirectMessage(
-                "Hey there, you need to be signed in to send messages to Khoj AI",
+                "Hey there, you need to be signed in to send messages to Rajat Singh",
             );
             setShowLoginPrompt(true);
             return;

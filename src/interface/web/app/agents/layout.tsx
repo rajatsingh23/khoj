@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import "../globals.css";
 
 export const metadata: Metadata = {
-    title: "Khoj AI - Agents",
+    title: "Rajat Singh - Agents",
     description:
         "Find or create agents with custom knowledge, tools and personalities to help address your specific needs.",
     icons: {
-        icon: "/static/assets/icons/khoj_lantern.ico",
-        apple: "/static/assets/icons/khoj_lantern_256x256.png",
+        icon: "/static/assets/icons/ai.ico",
+        apple: "/static/assets/icons/ai_256x256.ico",
     },
     openGraph: {
-        siteName: "Khoj AI",
-        title: "Khoj AI - Agents",
+        siteName: "Rajat Singh",
+        title: "Rajat Singh - Agents",
         description:
             "Find or create agents with custom knowledge, tools and personalities to help address your specific needs.",
         url: "https://app.khoj.dev/agents",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
                 height: 525,
             },
             {
-                url: "https://assets.khoj.dev/khoj_lantern_256x256.png",
+                url: "https://assets.khoj.dev/ai_256x256.ico",
                 width: 256,
                 height: 256,
             },
