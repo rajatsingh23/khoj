@@ -7,8 +7,8 @@ export const metadata: Metadata = {
     title: "Rajat Singh - Settings",
     description: "Configure Rajat to get personalized, deeper assistance.",
     icons: {
-        icon: "/static/assets/icons/ai.ico",
-        apple: "/static/assets/icons/ai_256x256.ico",
+        icon: "/assets/icons/ai.ico",
+        apple: "/assets/icons/ai_256x256.ico",
     },
     openGraph: {
         siteName: "Rajat Singh",

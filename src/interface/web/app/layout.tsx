@@ -10,10 +10,10 @@ export const metadata: Metadata = {
     description:
         "Rajat is a personal research assistant. It helps you understand better and create faster.",
     icons: {
-        icon: "/static/assets/icons/ai.ico",
+        icon: "/assets/icons/ai.ico",
         apple: "/assets/icons/ai_256x256.ico",
     },
-    manifest: "/static/khoj.webmanifest",
+    manifest: "/khoj.webmanifest",
     keywords:
         "research assistant, productivity, AI, Khoj, open source, model agnostic, research, productivity tool, personal assistant, personal research assistant, personal productivity assistant",
     openGraph: {

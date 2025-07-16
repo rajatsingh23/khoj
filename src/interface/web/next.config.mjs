@@ -15,8 +15,8 @@ const nextConfig = {
                 destination: 'http://localhost:42110/auth/:path*',
             },
             {
-                source: '/static/:path*',
-                destination: 'http://localhost:42110/static/:path*',
+                source: '/:path*',
+                destination: 'http://localhost:42110/:path*',
             },
         ];
     },

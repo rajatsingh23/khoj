@@ -8,8 +8,8 @@ export const metadata: Metadata = {
     description:
         "Use Rajat Automations to get tailored research and event based notifications directly in your inbox.",
     icons: {
-        icon: "/static/assets/icons/ai.ico",
-        apple: "/static/assets/icons/ai_256x256.ico",
+        icon: "/assets/icons/ai.ico",
+        apple: "/assets/icons/ai_256x256.ico",
     },
     openGraph: {
         siteName: "Rajat Singh",

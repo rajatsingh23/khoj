@@ -7,8 +7,8 @@ export const metadata: Metadata = {
     description:
         "Find anything in documents you've shared with Rajat using natural language queries.",
     icons: {
-        icon: "/static/assets/icons/ai.ico",
-        apple: "/static/assets/icons/ai_256x256.ico",
+        icon: "/assets/icons/ai.ico",
+        apple: "/assets/icons/ai_256x256.ico",
     },
     openGraph: {
         siteName: "Rajat Singh",

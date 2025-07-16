@@ -6,8 +6,8 @@ export const metadata: Metadata = {
     description:
         "Find or create agents with custom knowledge, tools and personalities to help address your specific needs.",
     icons: {
-        icon: "/static/assets/icons/ai.ico",
-        apple: "/static/assets/icons/ai_256x256.ico",
+        icon: "/assets/icons/ai.ico",
+        apple: "/assets/icons/ai_256x256.ico",
     },
     openGraph: {
         siteName: "Rajat Singh",

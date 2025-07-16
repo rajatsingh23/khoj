@@ -15,5 +15,5 @@ export default function khojLoader({
         src = src.slice(1)
     }
 
-    return `/static/${src}`
+    return `/${src}`
 }

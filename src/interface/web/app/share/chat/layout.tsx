@@ -6,8 +6,8 @@ export const metadata: Metadata = {
     description:
         "Ask anything. Research answers from across the internet and your documents, draft messages, summarize documents, generate paintings and chat with personal agents.",
     icons: {
-        icon: "/static/assets/icons/ai.ico",
-        apple: "/static/assets/icons/ai_256x256.ico",
+        icon: "/assets/icons/ai.ico",
+        apple: "/assets/icons/ai_256x256.ico",
     },
     openGraph: {
         siteName: "Rajat Singh",
